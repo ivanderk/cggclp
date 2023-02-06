@@ -1,17 +1,17 @@
 {
   "baseURL": "https://awesome11ty.ttntm.me",
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "author": "Capgemini Cloud CoE",
+  "description": "Capgemini X Google Landing Page",
+  "title": "Capgemini X Google Landing Page",
   "language": "en",
   "social": [
     {
-      "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "title": "Google Cloud",
+      "url": "https://cloud.google.com/#"
     },
     {
-      "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "title": "GC Dev Cheat Sheet",
+      "url": "https://googlecloudcheatsheet.withgoogle.com/#"
     }
   ]
 }

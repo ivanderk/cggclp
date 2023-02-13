@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Profile for {{fullname}}
+---
+
+<div class="container mx-auto mt-4 flex flex-col md:flex-row">
+  <div class="w-full md:w-1/4 p-4 flex justify-center">
+    <div class="rounded-full w-32 h-32 border-4 border-gray-200 overflow-hidden">
+      <img src="/img/profiles/{{shortname}}.png" alt="Profile picrture {{fullname}} ">
+    </div>
+  </div>
+  <div class="w-full md:w-3/4 p-4">
+    <div class="card rounded-lg bg-white shadow-lg">
+      <div class="card-body">
+        <h2 class="card-title font-bold text-lg mb-2">{{fullname}}</h2>
+          <!-- p class="mb-2"><span class="font-bold">Function:</span>{{function}}</p -->
+           <p class="mb-2"><span class="font-bold">Function:</span>{{function}}</p>
+          <p class="mb-2"><span class="font-bold">Email:</span>{{email}}</p>
+           <p class="mb-2"><span class="font-bold">Mobile:</span>{{telephone}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mx-auto mt-4">
+
+  {{content | safe }}
+
+</div>
+
